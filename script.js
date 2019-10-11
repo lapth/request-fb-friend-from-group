@@ -80,7 +80,7 @@ function closeInforBox() {
 	
 	for (let bt of bts) bt.click();
 	
-	bts = document.querySelectorAll(".layerConfirm.layerConfirm:not(.hidden_elem)"); 	
+	bts = document.querySelectorAll(".layerConfirm.uiOverlayButton:not(.hidden_elem)"); 	
 	if (!bts || bts.length===0) return;	
 	for (let bt of bts) bt.click();
 }
